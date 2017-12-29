@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">连连看</string>
+    <string name="score_display">当前分数:</string>
+    <string name="iniscore">当前分数:0</string>
+    <string name="time">所用时间为：$秒</string>
+    <string name="pause">游戏暂停</string>
+    <string name="quit">退出</string>
+    <string name="open">开</string>
+    <string name="close">关</string>
+    <string name="win">恭喜通过</string>
+    <string name="bgmusic">背景音乐：</string>
+    <string name="audio">音效：</string>
+    <string name="currentuser">当前用户：</string>
+    <string name="list">排行榜</string>
+    <string name="account">账号：</string>
+    <string name="password">密码：</string>
+    <string name="regist">注册</string>
+    <string name="log">登录</string>
+    <string name="new_record">新纪录:</string>
+    <string name="submit">提交</string>
+    <string name="back">返回</string>
+    <string name="lose">失败了/(ㄒoㄒ)/~~</string>
+    <string name="sure_quit">确定退出游戏？</string>
+    <string name="alert_dialog_ok">确定</string>
+    <string name="alert_dialog_cancel">取消</string>
+</resources>

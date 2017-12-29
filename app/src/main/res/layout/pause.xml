@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pause"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView android:id="@+id/text_gamestate"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/pause"
+            android:layout_below="@id/text_message"
+            android:textColor="@android:color/white"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            />
+        <LinearLayout android:orientation="horizontal"
+            android:layout_below="@id/text_gamestate"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:padding="10dip"
+            >
+            <ImageButton
+                android:id="@+id/menu_imgbtn1"
+                android:src="@drawable/buttons_quit"
+                android:background="@drawable/buttons_bg20"
+                android:layout_marginRight="15dip"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                />
+            <ImageButton
+                android:id="@+id/replay_imgbtn1"
+                android:src="@drawable/buttons_replay"
+                android:background="@drawable/buttons_bg20"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/setting"
+            android:src="@drawable/setting"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+    </RelativeLayout>
